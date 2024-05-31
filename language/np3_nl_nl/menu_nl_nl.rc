@@ -58,16 +58,16 @@ BEGIN
     POPUP "&Bestand"
     BEGIN
         MENUITEM "&Nieuw\tCtrl+N",                                  IDM_FILE_NEW
-        MENUITEM "&Openen...\tCtrl+O",                              IDM_FILE_OPEN
+        MENUITEM "&Openen…\tCtrl+O",                              IDM_FILE_OPEN
         MENUITEM "Op&slaan\tCtrl+S",                                IDM_FILE_SAVE
-        MENUITEM "Opslaan &als...\tF6",                             IDM_FILE_SAVEAS
-        MENUITEM "&Kopie opslaan...\tCtrl+F6",                      IDM_FILE_SAVECOPY
+        MENUITEM "Opslaan &als…\tF6",                             IDM_FILE_SAVEAS
+        MENUITEM "&Kopie opslaan…\tCtrl+F6",                      IDM_FILE_SAVECOPY
         MENUITEM "Opslaan met originele bestands&datum/-tijd\tCtrl+Alt+F6", IDM_FILE_PRESERVE_FILEMODTIME
         MENUITEM SEPARATOR
         MENUITEM "Bestand Alleen-&lezen markeren",                  IDM_FILE_READONLY
         MENUITEM "Bestand &vergrendelen (Gelezen-Gedeeld)",         IDM_FILE_LOCK_SHARE_READ
         MENUITEM SEPARATOR
-        MENUITEM "Versleutelings&wachtwoord instellen...",          IDM_SETPASS
+        MENUITEM "Versleutelings&wachtwoord instellen…",          IDM_SETPASS
         MENUITEM SEPARATOR
         POPUP "&Pad naar klembord kopiëren"
         BEGIN
@@ -85,8 +85,8 @@ BEGIN
             MENUITEM "Opnieuw starten met verhoogde &rechten",      IDM_FILE_LAUNCH_ELEVATED
             MENUITEM SEPARATOR
             MENUITEM "Document &uitvoeren\tCtrl+L",                 IDM_FILE_LAUNCH
-            MENUITEM "&Openen met...\tAlt+L",                       IDM_FILE_OPENWITH
-            MENUITEM "Op&dracht...\tCtrl+R",                        IDM_FILE_RUN
+            MENUITEM "&Openen met…\tAlt+L",                       IDM_FILE_OPENWITH
+            MENUITEM "Op&dracht…\tCtrl+R",                        IDM_FILE_RUN
             MENUITEM SEPARATOR
             MENUITEM "Websjabloon &1\tCtrl+Shift+1",                CMD_WEBACTION1
             MENUITEM "Websjabloon &2\tCtrl+Shift+2",                CMD_WEBACTION2
@@ -109,7 +109,7 @@ BEGIN
                 MENUITEM "U&CHARDET-analyse forceren",              CMD_RELOADFORCEDETECTION
                 MENUITEM "Coderingstags &negeren\tAlt+F8",          CMD_RELOADNOENCODETAGS
                 MENUITEM SEPARATOR
-                MENUITEM "&Meer codering...\tF8",                   IDM_ENCODING_RECODE
+                MENUITEM "&Meer codering…\tF8",                   IDM_ENCODING_RECODE
             END
             POPUP "Document in&stellen als"
             BEGIN
@@ -119,10 +119,10 @@ BEGIN
                 MENUITEM "UTF-&8\tShift+F8",                        IDM_ENCODING_UTF8
                 MENUITEM "UTF-8 met &signatuur",                    IDM_ENCODING_UTF8SIGN
                 MENUITEM SEPARATOR
-                MENUITEM "&Meer codering...\tF9",                   IDM_ENCODING_SELECT
+                MENUITEM "&Meer codering…\tF9",                   IDM_ENCODING_SELECT
             END
             MENUITEM SEPARATOR
-            MENUITEM "&Standaardcodering instellen...",             IDM_ENCODING_SETDEFAULT
+            MENUITEM "&Standaardcodering instellen…",             IDM_ENCODING_SETDEFAULT
         END
         POPUP "Regele&inden"
         BEGIN
@@ -130,25 +130,25 @@ BEGIN
             MENUITEM "&Mac (CR)",                                   IDM_LINEENDINGS_CR
             MENUITEM "&Unix (LF)",                                  IDM_LINEENDINGS_LF
             MENUITEM SEPARATOR
-            MENUITEM "&Standaard...",                               IDM_LINEENDINGS_SETDEFAULT
+            MENUITEM "&Standaard…",                               IDM_LINEENDINGS_SETDEFAULT
         END
         MENUITEM SEPARATOR
-        MENUITEM "&Inspringing controleren...",                     CMD_CHECK_INDENTATION
+        MENUITEM "&Inspringing controleren…",                     CMD_CHECK_INDENTATION
         MENUITEM SEPARATOR
-        MENUITEM "&Paginainstelling...",                            IDM_FILE_PAGESETUP
-        MENUITEM "&Afdrukken...\tCtrl+P",                           IDM_FILE_PRINT
+        MENUITEM "&Paginainstelling…",                            IDM_FILE_PAGESETUP
+        MENUITEM "&Afdrukken…\tCtrl+P",                           IDM_FILE_PRINT
         MENUITEM SEPARATOR
-        MENUITEM "&Eigenschappen...",                               IDM_FILE_PROPERTIES
+        MENUITEM "&Eigenschappen…",                               IDM_FILE_PROPERTIES
         MENUITEM "&Bureaubladsnelkoppeling aanmaken",               IDM_FILE_CREATELINK
         MENUITEM SEPARATOR
-        MENUITEM "MiniPath &verkenner...\tCtrl+M",                  IDM_FILE_BROWSE
+        MENUITEM "MiniPath &verkenner…\tCtrl+M",                  IDM_FILE_BROWSE
         POPUP "&Favorieten"
         BEGIN
-            MENUITEM "Favorieten &openen...\tAlt+I",                IDM_FILE_OPENFAV
-            MENUITEM "&Huidig bestand toevoegen...\tAlt+K",         IDM_FILE_ADDTOFAV
-            MENUITEM "Favorieten &beheren...\tAlt+F9",              IDM_FILE_MANAGEFAV
+            MENUITEM "Favorieten &openen…\tAlt+I",                IDM_FILE_OPENFAV
+            MENUITEM "&Huidig bestand toevoegen…\tAlt+K",         IDM_FILE_ADDTOFAV
+            MENUITEM "Favorieten &beheren…\tAlt+F9",              IDM_FILE_MANAGEFAV
         END
-        MENUITEM "Recente bestanden (gesc&hiedenis)...\tCtrl+Alt+H",    IDM_FILE_RECENT
+        MENUITEM "Recente bestanden (gesc&hiedenis)…\tCtrl+Alt+H",    IDM_FILE_RECENT
         MENUITEM SEPARATOR
         MENUITEM "Af&sluiten\tAlt+F4",                              IDM_FILE_EXIT
     END
@@ -195,7 +195,7 @@ BEGIN
             MENUITEM "Regel links verwijderen\tCtrl+Shift+Back",    IDM_EDIT_DELETELINELEFT
             MENUITEM "Regel rechts verwijderen\tCtrl+Shift+Del",    IDM_EDIT_DELETELINERIGHT
             MENUITEM SEPARATOR
-            MENUITEM "Kolom &aanpassen...\tCtrl+Shift+W",           IDM_EDIT_COLUMNWRAP
+            MENUITEM "Kolom &aanpassen…\tCtrl+Shift+W",           IDM_EDIT_COLUMNWRAP
             MENUITEM SEPARATOR
             MENUITEM "Lege regels samenvoe&gen\tAlt+Y",             IDM_EDIT_MERGEEMPTYLINES
             MENUITEM "Blanco regels samenvoegen\tCtrl+Alt+Y",       IDM_EDIT_MERGEBLANKLINES
@@ -229,7 +229,7 @@ BEGIN
                 MENUITEM SEPARATOR
                 MENUITEM "` `\tCtrl+6",                             CMD_EMBRACE4
                 MENUITEM SEPARATOR
-                MENUITEM "&Met...\tAlt+Q",                          IDM_EDIT_ENCLOSESELECTION
+                MENUITEM "&Met…\tAlt+Q",                          IDM_EDIT_ENCLOSESELECTION
             END
             MENUITEM "Selectie/regel &dupliceren\tCtrl+D",          IDM_EDIT_DUPLINEORSELECTION
             MENUITEM SEPARATOR
@@ -239,10 +239,10 @@ BEGIN
             MENUITEM "&Blanco's aan het eind verwijderen\tAlt+W",   IDM_EDIT_TRIMLINES
             MENUITEM "Blanco's samenvoegen\tCtrl+Alt+P",            IDM_EDIT_COMPRESS_BLANKS
             MENUITEM SEPARATOR
-            MENUITEM "Regels &aanpassen...\tAlt+M",                 IDM_EDIT_MODIFYLINES
-            MENUITEM "Regels &sorteren...\tAlt+O",                  IDM_EDIT_SORTLINES
+            MENUITEM "Regels &aanpassen…\tAlt+M",                 IDM_EDIT_MODIFYLINES
+            MENUITEM "Regels &sorteren…\tAlt+O",                  IDM_EDIT_SORTLINES
             MENUITEM SEPARATOR
-            MENUITEM "Regels &uitlijnen...\tAlt+J",                 IDM_EDIT_ALIGN
+            MENUITEM "Regels &uitlijnen…\tAlt+J",                 IDM_EDIT_ALIGN
             MENUITEM "Regels spli&tsen\tCtrl+I",                    IDM_EDIT_SPLITLINES
             MENUITEM "Regels samen&voegen\tCtrl+J",                 IDM_EDIT_JOINLINES
             MENUITEM "Regels samenvoegen &zonder spatie\tCtrl+Alt+J",    IDM_EDIT_JOINLN_NOSP
@@ -268,7 +268,7 @@ BEGIN
             MENUITEM SEPARATOR
             MENUITEM "Base&64 coderen",                             IDM_EDIT_BASE64ENCODE
             MENUITEM "Base6&4 decoderen",                           IDM_EDIT_BASE64DECODE
-            MENUITEM "Base64 decoderen als...",                     IDM_EDIT_B64DECODESEL
+            MENUITEM "Base64 decoderen als…",                     IDM_EDIT_B64DECODESEL
             MENUITEM SEPARATOR
             MENUITEM "&URL coderen\tCtrl+Shift+E",                  IDM_EDIT_URLENCODE
             MENUITEM "URL &decoderen\tCtrl+Shift+R",                IDM_EDIT_URLDECODE
@@ -285,7 +285,7 @@ BEGIN
         BEGIN
             MENUITEM "&Nieuwe regel hierboven\tCtrl+Enter",         CMD_INSERTNEWLINE
             MENUITEM SEPARATOR
-            MENUITEM "&HTML/XML tag...\tAlt+X",                     IDM_EDIT_INSERT_TAG
+            MENUITEM "&HTML/XML tag…\tAlt+X",                     IDM_EDIT_INSERT_TAG
             MENUITEM SEPARATOR
             MENUITEM "&Codering identificator\tCtrl+F8",            IDM_EDIT_INSERT_ENCODING
             MENUITEM SEPARATOR
@@ -328,15 +328,15 @@ BEGIN
         MENUITEM SEPARATOR
         POPUP "&Zoeken"
         BEGIN
-            MENUITEM "&Zoeken...\tCtrl+F",                          IDM_EDIT_FIND
+            MENUITEM "&Zoeken…\tCtrl+F",                          IDM_EDIT_FIND
             MENUITEM "Zoektekst bewaren\tAlt+F3",                   IDM_EDIT_SAVEFIND
             MENUITEM "Volgende zoe&ken\tF3",                        IDM_EDIT_FINDNEXT
             MENUITEM "V&orige zoeken\tShift+F3",                    IDM_EDIT_FINDPREV
             MENUITEM "Volgende selectie zoeken\tCtrl+F3",           CMD_FINDNEXTSEL
             MENUITEM "Vorige selectie zoeken\tCtrl+Shift+F3",       CMD_FINDPREVSEL
-            MENUITEM "&Vervangen...\tCtrl+H",                       IDM_EDIT_REPLACE
+            MENUITEM "&Vervangen…\tCtrl+H",                       IDM_EDIT_REPLACE
             MENUITEM "Volgen&de vervangen\tF4",                     IDM_EDIT_REPLACENEXT
-            MENUITEM "&Ga naar...\tCtrl+G",                         IDM_EDIT_GOTOLINE
+            MENUITEM "&Ga naar…\tCtrl+G",                         IDM_EDIT_GOTOLINE
             MENUITEM SEPARATOR
             MENUITEM "grepWin &bestanden doorzoeken\tCtrl+Shift+F", IDM_GREP_WIN_SEARCH2
         END
@@ -431,8 +431,8 @@ BEGIN
             MENUITEM "&Werkbalk weergeven",                         IDM_VIEW_TOOLBAR
             MENUITEM "&Statusbalk weergeven",                       IDM_VIEW_STATUSBAR
             MENUITEM SEPARATOR
-            MENUITEM "Werkbalkthema &laden...",                     IDM_VIEW_LOADTHEMETB
-            MENUITEM "Werkbal&k aanpassen...",                      IDM_VIEW_CUSTOMIZETB
+            MENUITEM "Werkbalkthema &laden…",                     IDM_VIEW_LOADTHEMETB
+            MENUITEM "Werkbal&k aanpassen…",                      IDM_VIEW_CUSTOMIZETB
             MENUITEM "Werkbalken wisselen",                         IDM_VIEW_TOGGLETB
             MENUITEM "Werkbalk &DPI-schaal",                        IDM_VIEW_DPISCALETB
         END
@@ -455,22 +455,22 @@ BEGIN
     END
     POPUP "&Uiterlijk"
     BEGIN
-        MENUITEM "Schema's &aanpassen...\tCtrl+F12",                IDM_VIEW_SCHEMECONFIG
+        MENUITEM "Schema's &aanpassen…\tCtrl+F12",                IDM_VIEW_SCHEMECONFIG
         MENUITEM SEPARATOR
-        MENUITEM "Synta&x schema selecteren...\tF12",               IDM_VIEW_SCHEME
+        MENUITEM "Synta&x schema selecteren…\tF12",               IDM_VIEW_SCHEME
         MENUITEM "&2e Basisschema\tShift+F12",                      IDM_VIEW_USE2NDDEFAULT
         MENUITEM SEPARATOR
-        MENUITEM "Globaal stan&daardlettertype...\tAlt+F12",        IDM_VIEW_FONT
-        MENUITEM "Standaardlettertype van &huidig schema...\tCtrl+Alt+F12", IDM_VIEW_CURRENTSCHEME
+        MENUITEM "Globaal stan&daardlettertype…\tAlt+F12",        IDM_VIEW_FONT
+        MENUITEM "Standaardlettertype van &huidig schema…\tCtrl+Alt+F12", IDM_VIEW_CURRENTSCHEME
         MENUITEM SEPARATOR
         MENUITEM "Windows Donkere modus",                           IDM_VIEW_WIN_DARK_MODE
         END
     POPUP "&Instellingen"
     BEGIN
         MENUITEM "Tabs als &spaties invoegen",                      IDM_SET_TABSASSPACES
-        MENUITEM "&Tab-instellingen...\tCtrl+T",                    IDM_SET_TABSETTINGS
-        MENUITEM "&Instellingen voor regelterugloop...",            IDM_SET_WORDWRAPSETTINGS
-        MENUITEM "&Lange regelinstellingen...",                     IDM_SET_LONGLINESETTINGS
+        MENUITEM "&Tab-instellingen…\tCtrl+T",                    IDM_SET_TABSETTINGS
+        MENUITEM "&Instellingen voor regelterugloop…",            IDM_SET_WORDWRAPSETTINGS
+        MENUITEM "&Lange regelinstellingen…",                     IDM_SET_LONGLINESETTINGS
         MENUITEM "Te&kst automatisch inspringen",                   IDM_SET_AUTOINDENTTEXT
         MENUITEM "Aanhalingstekens automatisch sluiten",            IDM_SET_AUTOCLOSEQUOTES
         MENUITEM "Haakjes automatisch sluiten",                     IDM_SET_AUTOCLOSEBRACKETS
@@ -480,8 +480,8 @@ BEGIN
         MENUITEM "Woordscheidings&tekens wisselen\tCtrl+Alt+A",     IDM_SET_ALTERNATE_WORD_SEPS
         MENUITEM SEPARATOR
         MENUITEM "Slechts één instantie per &bestand",              IDM_SET_SINGLEFILEINSTANCE
-        MENUITEM "Melding bij bestandswijziging...\tAlt+F5",        IDM_SET_CHANGENOTIFY
-        ///MENUITEM "Automatisch opslaan / Back-up...",             IDM_SET_AUTOSAVE_BACKUP
+        MENUITEM "Melding bij bestandswijziging…\tAlt+F5",        IDM_SET_CHANGENOTIFY
+        ///MENUITEM "Automatisch opslaan / Back-up…",             IDM_SET_AUTOSAVE_BACKUP
         MENUITEM "Meldingen dempen",                                IDM_SET_MUTE_MESSAGEBEEP
         POPUP "Functie Esc-&toets"
         BEGIN
@@ -491,7 +491,7 @@ BEGIN
         END
         MENUITEM "O&pslaan voor uitvoeren",                         IDM_SET_SAVEBEFORERUNNINGTOOLS
         MENUITEM "Tiny-E&xpressies berekenen",                      IDM_SET_EVALTINYEXPRONSEL
-        MENUITEM "Enable Multiple Selection",                       IDM_SET_MULTIPLE_SELECTION
+        MENUITEM "Meervoudige selectie inschakelen",                IDM_SET_MULTIPLE_SELECTION
         MENUITEM SEPARATOR
         POPUP "&Onthouden"
         BEGIN
@@ -546,11 +546,11 @@ BEGIN
     BEGIN
         MENUITEM "&Online documentatie\tF1",                        IDM_HELP_ONLINEDOCUMENTATION
         MENUITEM SEPARATOR
-        MENUITEM "Administratie&gereedschap starten...",            IDM_HELP_ADMINEXE
+        MENUITEM "Administratie&gereedschap starten…",            IDM_HELP_ADMINEXE
         MENUITEM "&Website controleren voor update",                IDM_HELP_UPDATEWEBSITE
         MENUITEM SEPARATOR
-        MENUITEM "&Hulp bij de opdrachtregel...",                   IDM_HELP_CMD
-        MENUITEM "&Over...\tShift+F1",                              IDM_HELP_ABOUT
+        MENUITEM "&Hulp bij de opdrachtregel…",                   IDM_HELP_CMD
+        MENUITEM "&Over…\tShift+F1",                              IDM_HELP_ABOUT
     END
 END
 
@@ -584,8 +584,8 @@ BEGIN
         MENUITEM "Werkbalk weergeven",                              IDM_VIEW_TOOLBAR
         MENUITEM "Statusbalk weergeven",                            IDM_VIEW_STATUSBAR
         MENUITEM SEPARATOR
-        MENUITEM "Werkbalkthema laden...",                          IDM_VIEW_LOADTHEMETB
-        MENUITEM "Werkbalk aanpassen...",                           IDM_VIEW_CUSTOMIZETB
+        MENUITEM "Werkbalkthema laden…",                          IDM_VIEW_LOADTHEMETB
+        MENUITEM "Werkbalk aanpassen…",                           IDM_VIEW_CUSTOMIZETB
         MENUITEM "Werkbalken wisselen",                             IDM_VIEW_TOGGLETB
         MENUITEM "Werkbalk DPI-schaal",                             IDM_VIEW_DPISCALETB
     END
